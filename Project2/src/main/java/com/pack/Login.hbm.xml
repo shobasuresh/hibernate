@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+          "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+<hibernate-mapping>
+
+   <class name="com.pack.Login" table="hibernew">
+         
+                 
+      <id name="id" column="id" type="int">
+  <generator class="native"/>
+     
+    </id>
+        
+ <property name="username" column="uname" type="string"  />
+ <property name="password"  type="java.lang.String" column="pwd"/>
+ <property name="salary"  type="float" column="salary"/>
+
+   </class> 
+
+</hibernate-mapping>
+
+
+          
